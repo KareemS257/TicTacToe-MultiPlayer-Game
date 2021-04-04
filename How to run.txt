@@ -1,0 +1,15 @@
+This game is a client-server tic tac toe game based on postgres database.
+game is configured to run on local hosts by default.
+
+How to run : 
+
+1-Install postgresql
+2-create a database called tictactoe
+3-Restore the database file "database.sql".
+4-change the database password in DataBaseManagment.java username and password.
+5-Download and add the postgresql jar file to the project library
+6-Create your own jar files
+7-Run the jarfile Server/dist/GameServerSwing.jar(This is the server that should be running at all times).
+8-Run the client jar file in Clinet/dist/GuiForGame.jar (This is the client with gui to play the game).
+9-Player needs to signup first to be registered in the data base.
+
